@@ -1,0 +1,30 @@
+# This workflow will do a clean install of node dependencies, build the resume and deploy to netlify
+
+name: Build & Deploy resume to Netlify
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 18.x
+    - name: Install resume-cli
+      run: |
+        npm install -g resume-cli
+        npm install jsonresume-theme-elegant 
+    - name: Build resume
+      run: | 
+        mkdir dist
+        resume export dist/index.html --theme elegant
+    - name: Deploy resume to netlify
+      run: |
+        zip -r resume.zip dist
+        curl -H "Content-Type: application/zip" -H "Authorization: Bearer $" --data-binary "@resume.zip" https://api.netlify.com/api/v1/sites/ctg-resume-example.netlify.app/deploys
