@@ -1,0 +1,164 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Chaance T. Graves",
+    "label": "Senior Systems Engineer",
+    "image": "https://res.cloudinary.com/website-assets-mgmt/image/upload/profile_pic_transparent_-_head_jspi9i.png",
+    "email": "chaance.graves@protonmail.com",
+    "phone": "832-359-8736",
+    "url": "https://chaancegraves.com",
+    "summary": "Results-driven system applications engineer offering expertise in consistently delivering innovative hardware and software solutions that enhance operational efficiency and accelerate time-to-market for stakeholders via optimal server design applications. Strategic thinker, innovative business partner, effective communicator, and problem-solving project manager known for building strong partnerships to leverage system design, embedded systems, and agile software practices to provide high-performance, reliable solutions that meet project requirements. Cross-collaborative leader and resourceful team contributor with demonstrated success in directing diverse teams to troubleshoot, provide exceptional technical support, and enhance expertise and leadership capabilities on state-of-the-art technologies.",
+    "location": {
+      "city": "Houston",
+      "region": "Texas",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "ctg123",
+        "url": "https://github.com/ctg123"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "chaancegraves",
+        "url": "https://linkedin.com/in/chaancegraves"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Intel Corporation",
+      "location": "Santa Clara, CA",
+      "position": "Systems and Hardware Enabling Engineer",
+      "startDate": "2017-07",
+      "endDate": "2024-09",
+      "summary": "Datacenter and AI Group: Xeon Platforms Systems Engineering. Led account ownership for board design, Power-On, and product development support for designs tailored for general computing, AI workloads, data management, and storage solutions.",
+      "highlights": [
+        "Consistently achieved Net Promoter Scores (NPS) of 80%+ by maintaining consistent closure rate on support tickets spanning debug requests, design reviews, specific technical inquiries, and product enhancement feedback, resulting in a 20% reduction in average issue resolution time.",
+        "Led a team in developing and deploying a custom web application and CLI with REST API integration from OpenBMC Redfish protocol to optimize reference platform management.",
+        "Streamlined manual processes into real-time monitoring of system configuration and power consumption in seconds, recognized as a top innovative tool in the organization."
+      ]
+    },
+    {
+      "name": "Intel Corporation",
+      "location": "Santa Clara, CA",
+      "position": "Platform Applications Engineering Lab Manager",
+      "startDate": "2019-07",
+      "endDate": "2024-09",
+      "summary": "Supervised logistics for pre-production hardware and system configuration support for regional account teams and technical experts of Intel Xeon subsystems.",
+      "highlights": [
+        "Led development of 24/7 monitoring tools for lab power consumption and environmental compliance using cost-effective hardware and software solutions.",
+        "Standardized remote PC setup via Ansible and implemented power control units from various PDU vendors to enhance remote capabilities.",
+        "Authored Service Level Agreements and Standard Operating Procedures for internal customers, enabling a remote access capable environment for on-demand issue replication."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Colorado Boulder",
+      "url": "https://www.colorado.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2023-01",
+      "endDate": "2025-12",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Texas A&M University",
+      "url": "https://www.tamu.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2012-08",
+      "endDate": "2017-05",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming/Scripting Languages",
+      "level": "Proficient",
+      "keywords": [
+        "Python",
+        "C",
+        "C++",
+        "Java",
+        "JavaScript",
+        "Node.js",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": [
+        "Linux (RHEL/Fedora/Ubuntu)",
+        "Windows OS",
+        "Enterprise NAS"
+      ]
+    },
+    {
+      "name": "Hardware/Software Tools",
+      "keywords": [
+        "JTAG/ITP",
+        "Oscilloscope",
+        "Soldering",
+        "Docker",
+        "Kubernetes",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Computer Hardware",
+      "keywords": [
+        "x86 Architecture",
+        "ARM",
+        "Printed Circuit Board Design",
+        "FPGA Digital Circuit Design",
+        "Verilog"
+      ]
+    },
+    {
+      "name": "Other",
+      "keywords": [
+        "Requirements Assessments",
+        "Troubleshooting",
+        "Quality Assurance",
+        "Risk Identification/Mitigation",
+        "Compliance",
+        "Analytics",
+        "Metrics",
+        "Legal/Regulatory Guidelines"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Colorado Boulder",
+      "area": "Electrical Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2023-01",
+      "endDate": "2025-12"
+    },
+    {
+      "institution": "Texas A&M University",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2012-08",
+      "endDate": "2017-05"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AI and Machine Learning Bootcamp",
+      "issuer": "California Institute of Technology",
+      "date": "2023-11"
+    },
+    {
+      "title": "Post Graduate Program in DevOps",
+      "issuer": "California Institute of Technology",
+      "date": "2021-08"
+    }
+  ]
+}
