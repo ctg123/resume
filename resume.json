@@ -1,9 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  },
   "basics": {
     "name": "Chaance T. Graves",
     "label": "Senior Systems Engineer",
-    "picture": "https://res.cloudinary.com/website-assets-mgmt/image/upload/profile_pic_transparent_-_head_jspi9i.png",
+    "picture": "https://avatars.githubusercontent.com/u/8324056?v=4",
     "email": "chaance.graves@protonmail.com",
     "phone": "832-359-8736",
     "url": "https://chaancegraves.com",
@@ -52,28 +56,6 @@
         "Standardized remote PC setup via Ansible and implemented power control units from various PDU vendors to enhance remote capabilities.",
         "Authored Service Level Agreements and Standard Operating Procedures for internal customers, enabling a remote access capable environment for on-demand issue replication."
       ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Colorado Boulder",
-      "url": "https://www.colorado.edu/",
-      "area": "Electrical Engineering",
-      "studyType": "Master of Science",
-      "startDate": "2023-01",
-      "endDate": "2025-12",
-      "score": "",
-      "courses": []
-    },
-    {
-      "institution": "Texas A&M University",
-      "url": "https://www.tamu.edu/",
-      "area": "Electrical Engineering",
-      "studyType": "Bachelor of Science",
-      "startDate": "2012-08",
-      "endDate": "2017-05",
-      "score": "",
-      "courses": []
     }
   ],
   "skills": [
@@ -138,27 +120,37 @@
       "institution": "University of Colorado Boulder",
       "area": "Electrical Engineering",
       "studyType": "Master of Science",
-      "startDate": "2023-01",
-      "endDate": "2025-12"
+      "startDate": "2024-04",
+      "endDate": "2025-12",
+      "url": "https://www.colorado.edu/ecee/academics/online-programs/master-science-electrical-engineering"
     },
     {
       "institution": "Texas A&M University",
       "area": "Electrical Engineering",
       "studyType": "Bachelor of Science",
       "startDate": "2012-08",
-      "endDate": "2017-05"
+      "endDate": "2017-05",
+      "url": "https://engineering.tamu.edu/electrical/index.html"
     }
   ],
-  "certifications": [
+  "certificates": [
     {
-      "title": "AI and Machine Learning Bootcamp",
+      "name": "AI and Machine Learning Bootcamp",
       "issuer": "California Institute of Technology",
-      "date": "2023-11"
+      "date": "2024-03-01",
+      "url": "https://success.simplilearn.com/585528eb-61e2-4c59-a587-c9046ab05e5b"
     },
     {
-      "title": "Post Graduate Program in DevOps",
+      "name": "Post Graduate Program in DevOps",
       "issuer": "California Institute of Technology",
-      "date": "2021-08"
+      "date": "2021-08-29",
+      "url": "https://success.simplilearn.com/bbd6f900-6c9d-4a47-a984-a5570f71210a#acc.cq1Pt9xZ"
+    },
+    {
+      "name": "Artificial Intelligence: Implications for Business Strategy",
+      "issuer": "MIT Sloan of Management",
+      "date": "2018-08-15",
+      "url": "https://www.credential.net/29593488-d22c-407c-abec-229bd5351356#acc.0XFO13Dq"
     }
   ]
 }
