@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Chaance Graves",
+    "name": "Chaance T. Graves",
     "label": "Senior Systems Engineer",
-    "image": "https://res.cloudinary.com/website-assets-mgmt/image/upload/profile_pic_transparent_-_head_jspi9i.png",
+    "picture": "https://res.cloudinary.com/website-assets-mgmt/image/upload/profile_pic_transparent_-_head_jspi9i.png",
     "email": "chaance.graves@protonmail.com",
     "phone": "832-359-8736",
     "url": "https://chaancegraves.com",

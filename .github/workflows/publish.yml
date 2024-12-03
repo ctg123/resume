@@ -24,7 +24,10 @@ jobs:
       run: | 
         mkdir dist
         resume export dist/index.html --theme elegant
-    - name: Deploy resume to netlify
-      run: |
-        zip -r resume.zip dist
-        curl -H "Content-Type: application/zip" -H "Authorization: Bearer $" --data-binary "@resume.zip" https://api.netlify.com/api/v1/sites/ctg-resume-example.netlify.app/deploys
+    - name: Deploy to Netlify
+      uses: netlify/actions/cli@master
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      with:
+        args: deploy --dir=dist --prod
