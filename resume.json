@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
-    "version": "v1.0.0",
+    "version": "v1.5.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   },
   "basics": {
@@ -11,7 +11,7 @@
     "email": "chaance.graves@protonmail.com",
     "phone": "832-359-8736",
     "url": "https://chaancegraves.com",
-    "summary": "Results-driven system applications engineer offering expertise in consistently delivering innovative hardware and software solutions that enhance operational efficiency and accelerate time-to-market for stakeholders via optimal server design applications. Strategic thinker, innovative business partner, effective communicator, and problem-solving project manager known for building strong partnerships to leverage system design, embedded systems, and agile software practices to provide high-performance, reliable solutions that meet project requirements. Cross-collaborative leader and resourceful team contributor with demonstrated success in directing diverse teams to troubleshoot, provide exceptional technical support, and enhance expertise and leadership capabilities on state-of-the-art technologies.",
+    "summary": "Results-driven system applications engineer offering expertise in consistently delivering innovative hardware and software solutions. Proven track record of developing high-performance solutions and validation tools that accelerated time-to-market by enhancing DFx efficiency. Successfully partnered with OEM/ODM R&D teams to drive product integration and resolve complex technical challenges. Demonstrated ability to lead cross-functional teams using agile methodologies while delivering robust system solutions that consistently meet stakeholder requirements.",
     "location": {
       "city": "Houston",
       "region": "Texas",
@@ -76,7 +76,7 @@
       "name": "Operating Systems",
       "keywords": [
         "Linux (RHEL/Fedora/Ubuntu)",
-        "Windows OS",
+        "Windows Server OS",
         "Enterprise NAS"
       ]
     },
@@ -87,6 +87,7 @@
         "Oscilloscope",
         "Soldering",
         "Docker",
+        "Ansible",
         "Kubernetes",
         "CI/CD"
       ]
