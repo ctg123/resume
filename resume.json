@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   },
   "basics": {
@@ -60,59 +60,64 @@
   ],
   "skills": [
     {
-      "name": "Programming/Scripting Languages",
+      "name": "Software Development",
       "level": "Proficient",
       "keywords": [
         "Python",
-        "C",
-        "C++",
-        "Java",
-        "JavaScript",
-        "Node.js",
-        "Shell Scripting"
+        "C/C++",
+        "JavaScript/Node.js",
+        "REST APIs",
+        "Microservices Architecture",
+        "Full Stack Development",
+        "Test-Driven Development"
       ]
     },
     {
-      "name": "Operating Systems",
+      "name": "Cloud & DevOps",
       "keywords": [
-        "Linux (RHEL/Fedora/Ubuntu)",
-        "Windows Server OS",
-        "Enterprise NAS"
+        "Docker/Containerization",
+        "Kubernetes Orchestration",
+        "CI/CD Pipelines",
+        "Infrastructure as Code",
+        "Ansible Automation",
+        "Cloud Platforms (AWS/Azure)",
+        "System Monitoring & Observability"
       ]
     },
     {
-      "name": "Hardware/Software Tools",
+      "name": "Hardware Engineering",
       "keywords": [
-        "JTAG/ITP",
-        "Oscilloscope",
-        "Soldering",
-        "Docker",
-        "Ansible",
-        "Kubernetes",
-        "CI/CD"
+        "x86/ARM Architecture Design",
+        "FPGA Development",
+        "PCB Design & Validation",
+        "Hardware Debugging (JTAG/ITP)",
+        "Power Analysis & Optimization",
+        "Signal Integrity Analysis",
+        "Hardware-Software Integration"
       ]
     },
     {
-      "name": "Computer Hardware",
+      "name": "Systems Engineering",
       "keywords": [
-        "x86 Architecture",
-        "ARM",
-        "Printed Circuit Board Design",
-        "FPGA Digital Circuit Design",
-        "Verilog"
+        "Platform Architecture",
+        "Performance Optimization",
+        "System Integration",
+        "Requirements Engineering",
+        "Technical Documentation",
+        "Cross-functional Team Leadership",
+        "Risk Management"
       ]
     },
     {
-      "name": "Other",
+      "name": "Professional Competencies",
       "keywords": [
-        "Requirements Assessments",
-        "Troubleshooting",
-        "Quality Assurance",
-        "Risk Identification/Mitigation",
-        "Compliance",
-        "Analytics",
-        "Metrics",
-        "Legal/Regulatory Guidelines"
+        "Project Management",
+        "Agile Methodologies",
+        "Technical Leadership",
+        "Stakeholder Management",
+        "Process Optimization",
+        "Product Development Lifecycle",
+        "Industry Compliance & Standards"
       ]
     }
   ],
@@ -122,7 +127,7 @@
       "area": "Electrical Engineering",
       "studyType": "Master of Science",
       "startDate": "2024-04",
-      "endDate": "2025-12",
+      "endDate": "2026-05",
       "url": "https://www.colorado.edu/ecee/academics/online-programs/master-science-electrical-engineering"
     },
     {
@@ -135,6 +140,12 @@
     }
   ],
   "certificates": [
+    {
+      "name": "NVIDIA-Certified Associate: AI Infrastructure and Operations",
+      "issuer": "NVIDIA",
+      "date": "2025-03-19",
+      "url": "https://www.credly.com/badges/752499f9-9bfa-4412-a3fe-783de2683932/public_url"
+    },
     {
       "name": "AI and Machine Learning Bootcamp",
       "issuer": "California Institute of Technology",
