@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
-    "version": "v1.7.0",
+    "version": "v2.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   },
   "basics": {
     "name": "Chaance T. Graves",
-    "label": "Senior Systems Engineer",
+    "label": " Sr. Electrical Engineer | AI-Driven Solutions | Transformative Leader",
     "picture": "https://avatars.githubusercontent.com/u/8324056?v=4",
     "email": "chaance.graves@ctginnovations.io",
     "phone": "832-359-8736",
@@ -46,7 +46,7 @@
     {
       "name": "Intel Corporation",
       "location": "Santa Clara, CA",
-      "position": "Platform SystemsEngineering Lab Manager",
+      "position": "Platform Systems Engineering Lab Manager",
       "startDate": "2019-07",
       "endDate": "2024-09",
       "summary": "Oversaw logistics for pre-production hardware and system configurations, enabling regional account teams and technical experts to effectively support Intel Xeon subsystems.",
@@ -59,12 +59,11 @@
   "projects": [
     {
       "name": "Enterprise LLM Platform Architecture",
-      "description": "Served as applications engineer for a strategic customer's first large language model (LLM) deployment on Intel architecture, supporting their proof-of-concept aimed at winning business from major clients including AWS, Verizon, and Apple.",
+      "description": "Served as applications engineer for a strategic customer leveraging BFloat16 instruction optimization for BERT training and MLPerf benchmarks in an eight-socket hyperscale computing platform",
       "highlights": [
-        "Provided critical technical guidance on 3rd Gen Intel Xeon Scalable processors with BFloat16 instruction optimization for BERT training and MLPerf benchmarks in an eight-socket hyperscale computing platform",
+        "Supported platform design guidance that helped secure customer confidence on Intel architecture for their enterprise-wide AI platform, resulting in a significant design win",
         "Coordinated with engineering team on UPI (Ultra Path Interconnect) topology optimization in BIOS reference code, communicating customer requirements and validating configurations to minimize memory access latency across NUMA domains in their 8S design (implemented as two interconnected 4S boards)",
-        "Deployed remote debugging tools and guided customer teams in running diagnostic tests (iperf, workload benchmarks) to isolate and root cause performance bottlenecks in the distributed computing environment, leading to targeted system optimizations",
-        "Supported technical project manager with architectural expertise that helped secure customer standardization on Intel architecture for their enterprise-wide AI platform, resulting in a significant design win"
+        "Deployed remote debugging tools and guided customer teams in running diagnostic tests (iperf, workload benchmarks) to isolate and root cause performance bottlenecks in the distributed computing environment in order to optimize to meet performance targets."
       ],
       "keywords": [
         "AI Infrastructure",
@@ -74,7 +73,7 @@
         "Deep Learning",
         "Intel Xeon",
         "UPI Topology",
-        "iperf Benchmarking",
+        "iPerf and Network Performance Testing",
         "NUMA Optimization"
       ],
       "startDate": "2020-03",
@@ -94,7 +93,7 @@
         "JavaScript/Node.js",
         "REST APIs",
         "Microservices Architecture",
-        "Full Stack Development",
+        "Web Development",
         "Test-Driven Development"
       ]
     },
@@ -102,10 +101,11 @@
       "name": "Cloud & DevOps",
       "keywords": [
         "Docker/Containerization",
-        "Kubernetes Orchestration",
+        "Kubernetes",
         "CI/CD Pipelines",
         "Infrastructure as Code",
-        "Ansible Automation",
+        "Terraform",
+        "Ansible",
         "Cloud Platforms (AWS/GCP/Azure/Digital Ocean)",
         "System Monitoring & Observability"
       ]
@@ -152,7 +152,7 @@
   "education": [
     {
       "institution": "University of Colorado Boulder",
-      "area": "Electrical Engineering",
+      "area": "Electrical and Computer Engineering",
       "studyType": "Master of Science",
       "startDate": "2024-04",
       "endDate": "2026-05",
