@@ -3,3 +3,6 @@
 
 # VSCode
 .vscode
+
+# locally generated resume HTML file
+.html

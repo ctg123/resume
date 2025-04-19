@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
-    "version": "v1.7.0",
+    "version": "v2.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   },
   "basics": {
     "name": "Chaance T. Graves",
-    "label": "Senior Systems Engineer",
+    "label": " Sr. Electrical Engineer | AI-Driven Solutions | Transformative Leader",
     "picture": "https://avatars.githubusercontent.com/u/8324056?v=4",
     "email": "chaance.graves@ctginnovations.io",
     "phone": "832-359-8736",
@@ -37,11 +37,10 @@
       "position": "Systems and Hardware Enabling Engineer",
       "startDate": "2017-07",
       "endDate": "2024-09",
-      "summary": "Datacenter and AI Group - Xeon Platforms Systems Engineering: Led account ownership for board design, Power-On, and product development support for designs tailored for general computing, AI workloads, data management, and storage solutions.",
+      "summary": "Led full product life-cycle support for board design, system bring-up, and product development support for designs tailored for general computing, AI workloads, data management, and storage solutions.",
       "highlights": [
-        "Consistently achieved Net Promoter Scores (NPS) of 80%+ by maintaining consistent closure rate on support tickets spanning debug requests, design reviews, specific technical inquiries, and product enhancement feedback, resulting in a 20% reduction in average issue resolution time.",
-        "Led a team in developing and deploying a custom web application and CLI with REST API integration from OpenBMC Redfish protocol to optimize reference platform management.",
-        "Streamlined manual processes into real-time monitoring of system configuration and power consumption in seconds, recognized as a top innovative tool in the organization."
+        "Achieved Net Promoter Scores (NPS) of 80%+ by maintaining consistent closure rate on customer requests spanning debug requests, design reviews, specific technical inquiries, and product enhancement feedback. Over time, these efforts resulted in 20% reduction in average issue resolution time strengthening relationships and fostering co-innovation initiatives that accelerated time-to-market milestones for customers.",
+        "Led a team consisting of interns and Jr. Engineers in developing and deploying web applications and CLI with REST API integration from OpenBMC Redfish protocol responsible for optimizing reference platform management. Streamline manual processes into a real-time monitoring of system configuration and power consumption in seconds. The project was recognized as one of the top innovative tools in the organization for improving planning and overall reference server utilization."
       ]
     },
     {
@@ -50,12 +49,38 @@
       "position": "Platform Systems Engineering Lab Manager",
       "startDate": "2019-07",
       "endDate": "2024-09",
-      "summary": "Supervised logistics for pre-production hardware and system configuration support for regional account teams and technical experts of Intel Xeon subsystems.",
+      "summary": "Oversaw logistics for pre-production hardware and system configurations, enabling regional account teams and technical experts to effectively support Intel Xeon subsystems.",
       "highlights": [
-        "Led development of 24/7 monitoring tools for lab power consumption and environmental compliance using cost-effective hardware and software solutions.",
-        "Standardized remote PC setup via Ansible and implemented power control units from various PDU vendors to enhance remote capabilities.",
-        "Authored Service Level Agreements and Standard Operating Procedures for internal customers, enabling a remote access capable environment for on-demand issue replication."
+        "Implemented cost-effective continuous monitoring tools for lab power consumption and environmental conditions, ensuring compliance with temperature and cooling standards. Standardized remote setup for Windows and Linux PCs using Ansible, enhancing server management across engineering teams and integrating power distribution units from multiple vendors to improve remote operational capabilities.",
+        "Established Service Level Agreements and Standard Operation Procedures for internal customers, enabling a remote access capable environment for on demand issue replication, Platform Security, RAS testing, etc."
       ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enterprise LLM Platform Architecture",
+      "description": "Served as applications engineer for a strategic customer leveraging BFloat16 instruction optimization for BERT training and MLPerf benchmarks in an eight-socket hyperscale computing platform",
+      "highlights": [
+        "Supported platform design guidance that helped secure customer confidence on Intel architecture for their enterprise-wide AI platform, resulting in a significant design win",
+        "Coordinated with engineering team on UPI (Ultra Path Interconnect) topology optimization in BIOS reference code, communicating customer requirements and validating configurations to minimize memory access latency across NUMA domains in their 8S design (implemented as two interconnected 4S boards)",
+        "Deployed remote debugging tools and guided customer teams in running diagnostic tests (iperf, workload benchmarks) to isolate and root cause performance bottlenecks in the distributed computing environment in order to optimize to meet performance targets."
+      ],
+      "keywords": [
+        "AI Infrastructure",
+        "Remote Debugging",
+        "Network Performance Analysis",
+        "Cluster Scaling",
+        "Deep Learning",
+        "Intel Xeon",
+        "UPI Topology",
+        "iPerf and Network Performance Testing",
+        "NUMA Optimization"
+      ],
+      "startDate": "2020-03",
+      "endDate": "2020-12",
+      "roles": ["Applications Engineer", "Technical Specialist"],
+      "entity": "Intel Corporation",
+      "type": "Enterprise AI Infrastructure"
     }
   ],
   "skills": [
@@ -68,7 +93,7 @@
         "JavaScript/Node.js",
         "REST APIs",
         "Microservices Architecture",
-        "Full Stack Development",
+        "Web Development",
         "Test-Driven Development"
       ]
     },
@@ -76,10 +101,11 @@
       "name": "Cloud & DevOps",
       "keywords": [
         "Docker/Containerization",
-        "Kubernetes Orchestration",
+        "Kubernetes",
         "CI/CD Pipelines",
         "Infrastructure as Code",
-        "Ansible Automation",
+        "Terraform",
+        "Ansible",
         "Cloud Platforms (AWS/GCP/Azure/Digital Ocean)",
         "System Monitoring & Observability"
       ]
@@ -126,7 +152,7 @@
   "education": [
     {
       "institution": "University of Colorado Boulder",
-      "area": "Electrical Engineering",
+      "area": "Electrical and Computer Engineering",
       "studyType": "Master of Science",
       "startDate": "2024-04",
       "endDate": "2026-05",
