@@ -1,14 +1,14 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
-    "version": "v1.6.0",
+    "version": "v1.7.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   },
   "basics": {
     "name": "Chaance T. Graves",
     "label": "Senior Systems Engineer",
     "picture": "https://avatars.githubusercontent.com/u/8324056?v=4",
-    "email": "chaance.graves@protonmail.com",
+    "email": "chaance.graves@ctginnovations.io",
     "phone": "832-359-8736",
     "url": "https://chaancegraves.com",
     "summary": "Results-driven system applications engineer offering expertise in consistently delivering innovative hardware and software solutions. Proven track record of developing high-performance solutions and validation tools that accelerated time-to-market by enhancing DFx efficiency. Successfully partnered with OEM/ODM R&D teams to drive product integration and resolve complex technical challenges. Demonstrated ability to lead cross-functional teams using agile methodologies while delivering robust system solutions that consistently meet stakeholder requirements.",
@@ -47,7 +47,7 @@
     {
       "name": "Intel Corporation",
       "location": "Santa Clara, CA",
-      "position": "Platform Applications Engineering Lab Manager",
+      "position": "Platform Systems Engineering Lab Manager",
       "startDate": "2019-07",
       "endDate": "2024-09",
       "summary": "Supervised logistics for pre-production hardware and system configuration support for regional account teams and technical experts of Intel Xeon subsystems.",
@@ -80,19 +80,21 @@
         "CI/CD Pipelines",
         "Infrastructure as Code",
         "Ansible Automation",
-        "Cloud Platforms (AWS/Azure)",
+        "Cloud Platforms (AWS/GCP/Azure/Digital Ocean)",
         "System Monitoring & Observability"
       ]
     },
     {
       "name": "Hardware Engineering",
       "keywords": [
-        "x86/ARM Architecture Design",
-        "FPGA Development",
+        "x86/ARM Architecture",
+        "GPU Programming",
+        "FPGA Development (Verilog)",
         "PCB Design & Validation",
-        "Hardware Debugging (JTAG/ITP)",
+        "PCIe",
+        "Hardware Debugging (JTAG/USB/UART/SPI)",
         "Power Analysis & Optimization",
-        "Signal Integrity Analysis",
+        "Signal Integrity",
         "Hardware-Software Integration"
       ]
     },
